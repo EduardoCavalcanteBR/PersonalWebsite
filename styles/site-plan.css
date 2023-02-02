@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -134,7 +135,7 @@ nav a:hover {
   grid-template-areas: ". . home home . ."
     ". . . top . ."
     ". left left right right ."
-    "page2 page2 . . page3 page3";
+    "portfolio portfolio . . aboutus aboutus";
 }
 .sitemap > div {
 
@@ -146,13 +147,13 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
-  grid-area: page2;
+.sm-portfolio {
+  grid-area: portfolio;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
-  grid-area: page3;
+.sm-aboutus {
+  grid-area: aboutus;
   background-color: #ccc;
   line-height: 3em;
 }
